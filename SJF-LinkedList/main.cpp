@@ -31,5 +31,7 @@ void driver(){
         cout << "[" << i+1 << "] Set BT:  "; cin >> tmp_bt;
         sch.enqueue(tmp_bt, tmp_pid); 
     }
-    sch.scheduleProcess();
+    sch.sortSchedule();
+    // sch.scheduleProcess();
+    sch.print();
 }

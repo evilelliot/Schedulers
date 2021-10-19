@@ -14,11 +14,10 @@
 using namespace std;
 
 class Process{
-    private:
-        string PID;
-        int BT;
         Process *p;
     public:
+        string PID;
+        int BT;
         Process(string _PID, int _BT): PID(_PID), BT(_BT){}
         int getBT() const { return BT; }
         string getPID() const { return PID; }

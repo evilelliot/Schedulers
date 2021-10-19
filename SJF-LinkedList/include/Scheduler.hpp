@@ -34,11 +34,14 @@ class Scheduler{
         // Getters
         int getCapacity() const { return _capacity; }
         int getSize() const { return _size; }
+        // Operaciones de ordenamiento
+        void sortSchedule();
         // Operaciones de control
         bool isEmpty() const { return _size == 0; }
         bool isFull() const { return _size == _capacity; }
         // Testing
         void peek();
+        void print();
 };
         
 

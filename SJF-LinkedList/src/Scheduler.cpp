@@ -76,6 +76,8 @@ bool Scheduler::dequeue(){
     }
 }
 void Scheduler::scheduleProcess(){
+    // Ordenar la schedule list antes de cualquier otra cosa
+    // sortSchedule();
     int wt = 0; // Waiting time
     // Precondición para controlar si esta vacía
     if(isEmpty()){
@@ -102,6 +104,31 @@ void Scheduler::scheduleProcess(){
         cout << endl;
         // Free tmp_sos space
         delete tmp_sos;
+    }
+}
+void Scheduler::sortSchedule(){
+    cout << "HERE I AM" << endl;
+    Process *node=NULL, *temp = NULL;
+    int tempvar;
+    node = eos;
+    temp = node->next();
+    while(node != NULL && node->next() != NULL) {
+    for(int j=0; j<getSize(); j++){
+        if(node->BT < temp->BT){
+            tempvar  = node->BT;
+            node->BT = temp->BT;
+            temp->BT = tempvar;
+        }
+        temp = temp->next();
+    }
+    node = node->next();
+    }    
+}
+void Scheduler::print(){
+    Process *tmp = sos;
+    while(tmp != NULL){
+        cout << "PID: " << tmp->getPID() << " BT: " << tmp->BT << endl;
+        tmp = tmp->next();
     }
 }
 void Scheduler::peek(){
