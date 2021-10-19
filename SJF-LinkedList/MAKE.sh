@@ -1,1 +1,1 @@
-g++ -o Fifo main.cpp src/Scheduler.cpp
+g++ -o SJF main.cpp src/Scheduler.cpp
