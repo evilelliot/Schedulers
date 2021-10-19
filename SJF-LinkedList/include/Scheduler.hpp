@@ -1,7 +1,7 @@
 /**
  * @file Scheduler.hpp
  * 
- * @project FIFO Algorithm
+ * @project SJF-Algorithm
  * 
  * @author Alberto Ocaranza
  * Contact: alt.ocaranza@gmail.com
