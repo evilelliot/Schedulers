@@ -1,0 +1,1 @@
+g++ -w -o SJF main.cpp src/SJF.cpp src/QuickSort.cpp
