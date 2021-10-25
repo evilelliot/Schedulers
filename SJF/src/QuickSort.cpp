@@ -19,12 +19,12 @@ void QuickSort::sort(Node* bucket, int _low, int _high){
     }
 }
 int QuickSort::separate(Node* bucket, int _low, int _high){
-    int pivot = bucket[_high].key;
+    int pivot = bucket[_high].bt;
     // Index of smallest element
     int i     = _low - 1;
     // Traversing array for comparision
     for(int x = _low; x <= _high - 1; x++){
-        if(bucket[x].key <= pivot){
+        if(bucket[x].bt <= pivot){
             i++;
             swap(&bucket[i], &bucket[x]);
         }
@@ -35,7 +35,7 @@ int QuickSort::separate(Node* bucket, int _low, int _high){
 }
 void QuickSort::show(Node *bucket, int n){
     for(int i = 0; i < n; i++){
-        cout << "["<<i<<"]"<<bucket[i].key << " Data: " << bucket[i].data <<endl;
+        cout << "["<<i<<"]"<<bucket[i].at << " Data: " << bucket[i].data <<endl;
     }
 }
 int QuickSort::size(int bucket[]){

@@ -7,6 +7,8 @@ using namespace std;
 
 class SJF{
     int size;
+    int twt;
+    float awt;
     Node *bucket;
     public:
         SJF(int);
@@ -17,6 +19,8 @@ class SJF{
         void setData();
         // Testing
         void print();
+        // Calcular wt
+        void waitingCalculator();
 };
 
 #endif

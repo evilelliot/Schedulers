@@ -7,8 +7,11 @@ using namespace std;
 class Node{
     public:
         Node(){}
-        Node(int x, string d): key(x), data(d){}
-        int key;
+        Node(int bt, int at, string d): bt(bt), at(at), data(d){}
+        void setWT(int wt);
+        int bt;
+        int at;
+        int wt;
         string data;
 };
 
