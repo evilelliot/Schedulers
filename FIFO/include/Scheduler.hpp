@@ -13,10 +13,16 @@
 #include "Process.hpp"
 #include <iostream>
 #include <string>
+#include <conio.h>
+#include <windows.h>
+#include <cstdlib>
 using namespace std;
 
 class Scheduler{
+    
     private:
+        HANDLE console = GetStdHandle(STD_OUTPUT_HANDLE);
+        COORD CursorPosition;
         // End-of-schedule | Start-of-schedule
         Process *eos;
         Process *sos;
@@ -39,6 +45,10 @@ class Scheduler{
         bool isFull() const { return _size == _capacity; }
         // Testing
         void peek();
+        // Gotoxy
+        void gotoxy(int, int);
+        // Clear
+        void clearSide();
 };
         
 

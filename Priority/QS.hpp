@@ -3,7 +3,7 @@
 
 #include "nodos.hpp"
 
-class QuickSort{
+class QS{
     
     public:
         //Swap será para la rotacion de valores del array
