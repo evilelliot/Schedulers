@@ -1,0 +1,1 @@
+g++ -o Priority main.cpp Priority.cpp Quicksort.cpp nodos.cpp

@@ -1,0 +1,64 @@
+Date : 2021-10-25 20:02:22
+Directory : c:\Users\altoc\C++\Schedulers
+Total : 27 files,  494 codes, 104 comments, 70 blanks, all 668 lines
+
+Languages
++--------------+------------+------------+------------+------------+------------+
+| language     | files      | code       | comment    | blank      | total      |
++--------------+------------+------------+------------+------------+------------+
+| C++          |         19 |        460 |        104 |         61 |        625 |
+| JSON         |          4 |         20 |          0 |          0 |         20 |
+| Markdown     |          1 |         11 |          0 |          8 |         19 |
+| Shell Script |          3 |          3 |          0 |          1 |          4 |
++--------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                             | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                |         27 |        494 |        104 |         70 |        668 |
+| FIFO                                                             |          5 |        144 |         68 |          9 |        221 |
+| FIFO\include                                                     |          2 |         42 |         25 |          7 |         74 |
+| FIFO\src                                                         |          1 |         77 |         32 |          1 |        110 |
+| Priority                                                         |         10 |        158 |          6 |         34 |        198 |
+| Priority\.vs                                                     |          2 |          9 |          0 |          0 |          9 |
+| SJF                                                              |         10 |        162 |         21 |         16 |        199 |
+| SJF\.vs                                                          |          2 |         11 |          0 |          0 |         11 |
+| SJF\include                                                      |          3 |         46 |          4 |          9 |         59 |
+| SJF\src                                                          |          3 |         93 |         15 |          5 |        113 |
+| _prototypes                                                      |          1 |         19 |          9 |          3 |         31 |
++------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------+--------------+------------+------------+------------+------------+
+| filename                                                         | language     | code       | comment    | blank      | total      |
++------------------------------------------------------------------+--------------+------------+------------+------------+------------+
+| c:\Users\altoc\C++\Schedulers\FIFO\MAKE.sh                       | Shell Script |          1 |          0 |          1 |          2 |
+| c:\Users\altoc\C++\Schedulers\FIFO\include\Process.hpp           | C++          |         17 |          9 |          3 |         29 |
+| c:\Users\altoc\C++\Schedulers\FIFO\include\Scheduler.hpp         | C++          |         25 |         16 |          4 |         45 |
+| c:\Users\altoc\C++\Schedulers\FIFO\main.cpp                      | C++          |         24 |         11 |          0 |         35 |
+| c:\Users\altoc\C++\Schedulers\FIFO\src\Scheduler.cpp             | C++          |         77 |         32 |          1 |        110 |
+| c:\Users\altoc\C++\Schedulers\Priority\.vs\ProjectSettings.json  | JSON         |          3 |          0 |          0 |          3 |
+| c:\Users\altoc\C++\Schedulers\Priority\.vs\VSWorkspaceState.json | JSON         |          6 |          0 |          0 |          6 |
+| c:\Users\altoc\C++\Schedulers\Priority\MAKE.sh                   | Shell Script |          1 |          0 |          0 |          1 |
+| c:\Users\altoc\C++\Schedulers\Priority\Priority.cpp              | C++          |         51 |          0 |          8 |         59 |
+| c:\Users\altoc\C++\Schedulers\Priority\Priority.hpp              | C++          |         19 |          0 |          6 |         25 |
+| c:\Users\altoc\C++\Schedulers\Priority\QuickSort.cpp             | C++          |         36 |          2 |          9 |         47 |
+| c:\Users\altoc\C++\Schedulers\Priority\QuickSort.hpp             | C++          |         12 |          3 |          6 |         21 |
+| c:\Users\altoc\C++\Schedulers\Priority\main.cpp                  | C++          |         10 |          0 |          2 |         12 |
+| c:\Users\altoc\C++\Schedulers\Priority\nodos.cpp                 | C++          |          6 |          0 |          1 |          7 |
+| c:\Users\altoc\C++\Schedulers\Priority\nodos.hpp                 | C++          |         14 |          1 |          2 |         17 |
+| c:\Users\altoc\C++\Schedulers\README.md                          | Markdown     |         11 |          0 |          8 |         19 |
+| c:\Users\altoc\C++\Schedulers\SJF\.vs\ProjectSettings.json       | JSON         |          3 |          0 |          0 |          3 |
+| c:\Users\altoc\C++\Schedulers\SJF\.vs\VSWorkspaceState.json      | JSON         |          8 |          0 |          0 |          8 |
+| c:\Users\altoc\C++\Schedulers\SJF\MAKE.sh                        | Shell Script |          1 |          0 |          0 |          1 |
+| c:\Users\altoc\C++\Schedulers\SJF\include\Node.hpp               | C++          |         15 |          0 |          3 |         18 |
+| c:\Users\altoc\C++\Schedulers\SJF\include\QuickSort.hpp          | C++          |         12 |          0 |          3 |         15 |
+| c:\Users\altoc\C++\Schedulers\SJF\include\SJF.hpp                | C++          |         19 |          4 |          3 |         26 |
+| c:\Users\altoc\C++\Schedulers\SJF\main.cpp                       | C++          |         11 |          2 |          2 |         15 |
+| c:\Users\altoc\C++\Schedulers\SJF\src\Node.cpp                   | C++          |          6 |          0 |          1 |          7 |
+| c:\Users\altoc\C++\Schedulers\SJF\src\QuickSort.cpp              | C++          |         36 |          5 |          2 |         43 |
+| c:\Users\altoc\C++\Schedulers\SJF\src\SJF.cpp                    | C++          |         51 |         10 |          2 |         63 |
+| c:\Users\altoc\C++\Schedulers\_prototypes\Process.hpp            | C++          |         19 |          9 |          3 |         31 |
+| Total                                                            |              |        494 |        104 |         70 |        668 |
++------------------------------------------------------------------+--------------+------------+------------+------------+------------+

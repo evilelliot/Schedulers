@@ -1,0 +1,29 @@
+"filename", "language", "Markdown", "C++", "Shell Script", "JSON", "comment", "blank", "total"
+"c:\Users\altoc\C++\Schedulers\FIFO\MAKE.sh", "Shell Script", 0, 0, 1, 0, 0, 1, 2
+"c:\Users\altoc\C++\Schedulers\FIFO\include\Process.hpp", "C++", 0, 17, 0, 0, 9, 3, 29
+"c:\Users\altoc\C++\Schedulers\FIFO\include\Scheduler.hpp", "C++", 0, 25, 0, 0, 16, 4, 45
+"c:\Users\altoc\C++\Schedulers\FIFO\main.cpp", "C++", 0, 24, 0, 0, 11, 0, 35
+"c:\Users\altoc\C++\Schedulers\FIFO\src\Scheduler.cpp", "C++", 0, 77, 0, 0, 32, 1, 110
+"c:\Users\altoc\C++\Schedulers\Priority\.vs\ProjectSettings.json", "JSON", 0, 0, 0, 3, 0, 0, 3
+"c:\Users\altoc\C++\Schedulers\Priority\.vs\VSWorkspaceState.json", "JSON", 0, 0, 0, 6, 0, 0, 6
+"c:\Users\altoc\C++\Schedulers\Priority\MAKE.sh", "Shell Script", 0, 0, 1, 0, 0, 0, 1
+"c:\Users\altoc\C++\Schedulers\Priority\Priority.cpp", "C++", 0, 51, 0, 0, 0, 8, 59
+"c:\Users\altoc\C++\Schedulers\Priority\Priority.hpp", "C++", 0, 19, 0, 0, 0, 6, 25
+"c:\Users\altoc\C++\Schedulers\Priority\QuickSort.cpp", "C++", 0, 36, 0, 0, 2, 9, 47
+"c:\Users\altoc\C++\Schedulers\Priority\QuickSort.hpp", "C++", 0, 12, 0, 0, 3, 6, 21
+"c:\Users\altoc\C++\Schedulers\Priority\main.cpp", "C++", 0, 10, 0, 0, 0, 2, 12
+"c:\Users\altoc\C++\Schedulers\Priority\nodos.cpp", "C++", 0, 6, 0, 0, 0, 1, 7
+"c:\Users\altoc\C++\Schedulers\Priority\nodos.hpp", "C++", 0, 14, 0, 0, 1, 2, 17
+"c:\Users\altoc\C++\Schedulers\README.md", "Markdown", 11, 0, 0, 0, 0, 8, 19
+"c:\Users\altoc\C++\Schedulers\SJF\.vs\ProjectSettings.json", "JSON", 0, 0, 0, 3, 0, 0, 3
+"c:\Users\altoc\C++\Schedulers\SJF\.vs\VSWorkspaceState.json", "JSON", 0, 0, 0, 8, 0, 0, 8
+"c:\Users\altoc\C++\Schedulers\SJF\MAKE.sh", "Shell Script", 0, 0, 1, 0, 0, 0, 1
+"c:\Users\altoc\C++\Schedulers\SJF\include\Node.hpp", "C++", 0, 15, 0, 0, 0, 3, 18
+"c:\Users\altoc\C++\Schedulers\SJF\include\QuickSort.hpp", "C++", 0, 12, 0, 0, 0, 3, 15
+"c:\Users\altoc\C++\Schedulers\SJF\include\SJF.hpp", "C++", 0, 19, 0, 0, 4, 3, 26
+"c:\Users\altoc\C++\Schedulers\SJF\main.cpp", "C++", 0, 11, 0, 0, 2, 2, 15
+"c:\Users\altoc\C++\Schedulers\SJF\src\Node.cpp", "C++", 0, 6, 0, 0, 0, 1, 7
+"c:\Users\altoc\C++\Schedulers\SJF\src\QuickSort.cpp", "C++", 0, 36, 0, 0, 5, 2, 43
+"c:\Users\altoc\C++\Schedulers\SJF\src\SJF.cpp", "C++", 0, 51, 0, 0, 10, 2, 63
+"c:\Users\altoc\C++\Schedulers\_prototypes\Process.hpp", "C++", 0, 19, 0, 0, 9, 3, 31
+"Total", "-", 11, 460, 3, 20, 104, 70, 668

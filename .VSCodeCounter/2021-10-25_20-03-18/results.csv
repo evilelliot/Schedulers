@@ -1,0 +1,7 @@
+"filename", "language", "C++", "Shell Script", "comment", "blank", "total"
+"c:\Users\altoc\C++\Schedulers\FIFO\MAKE.sh", "Shell Script", 0, 1, 0, 1, 2
+"c:\Users\altoc\C++\Schedulers\FIFO\include\Process.hpp", "C++", 17, 0, 9, 3, 29
+"c:\Users\altoc\C++\Schedulers\FIFO\include\Scheduler.hpp", "C++", 25, 0, 16, 4, 45
+"c:\Users\altoc\C++\Schedulers\FIFO\main.cpp", "C++", 24, 0, 11, 0, 35
+"c:\Users\altoc\C++\Schedulers\FIFO\src\Scheduler.cpp", "C++", 77, 0, 32, 1, 110
+"Total", "-", 143, 1, 68, 9, 221
