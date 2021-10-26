@@ -12,6 +12,9 @@
 #include <string>
 #include <iostream>
 #include <iomanip>
+#include <conio.h>
+#include <windows.h>
+#include <cstdlib>
 using namespace std;
 // Constructor
 Scheduler::Scheduler(int c): _capacity(c){
@@ -76,7 +79,9 @@ bool Scheduler::dequeue(){
     }
 }
 void Scheduler::scheduleProcess(){
+    this->clearSide();
     int wt = 0; // Waiting time
+    int y = 7;
     // Precondición para controlar si esta vacía
     if(isEmpty()){
         cout << "Cannot print an empty schedule list" << endl;
@@ -84,20 +89,25 @@ void Scheduler::scheduleProcess(){
         // Hacemos un head temporal para no modificar el original
         Process *tmp_sos = sos;
         // Mientras head no sea null ejectuamos el algoritmo de scheduler
-        system("clear");
         while(tmp_sos != NULL){
+            y = y + 1;
             // Sumamos el tiempo de espera original mas el proceso actual
             wt = wt + tmp_sos->getBT();
             // Imprimimos los datos
-            cout.width(2);    
-            cout << left << "PID: " << setw(2) << tmp_sos->getPID();
-            cout << left << " WT: " << setw(5) << wt << endl;
+            gotoxy(60, y);
+            cout << left << "PID: " << tmp_sos->getPID();
+            gotoxy(80, y);
+            cout << left << " WT: " << wt << endl;
             // Cambiamos al next
             tmp_sos = tmp_sos->next();
         }   
+        gotoxy(60, y + 3);
         cout << "_______________________________________" << endl;
+        gotoxy(60, y + 4);
         cout << "Process count: " << getSize() << endl;
+        gotoxy(60, y + 5);
         cout << "Average Wait Time: " << wt / float(getSize()) << endl;
+        gotoxy(60, y + 6);
         cout << "Total Wait Time: " << wt << endl;
         cout << endl;
         // Free tmp_sos space
@@ -108,3 +118,14 @@ void Scheduler::peek(){
     cout << eos->getPID() << endl;
     cout << eos->getBT() << endl;
 } 
+void Scheduler::gotoxy(int x, int y){
+    CursorPosition.X = x;
+	CursorPosition.Y = y;
+	SetConsoleCursorPosition(console,CursorPosition);
+}
+void Scheduler::clearSide(){
+    for(int i = 0; i < 100; i++){
+        gotoxy(60, i);
+        cout << "                                                          ";
+    }
+}

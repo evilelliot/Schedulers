@@ -5,8 +5,8 @@
 using namespace std;
 
 int main() {
-  Priority p(3);
-  
-  p.scheduler();
+    Priority p(3);
+    
+    p.scheduler();
   return 0;  
 }

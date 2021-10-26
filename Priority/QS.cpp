@@ -1,16 +1,16 @@
-#include "QuickSort.hpp"
+#include "QS.hpp"
 #include "nodos.hpp"
 #include <iostream>
 using namespace std;
 
-void QuickSort::swap(node *a, node *b){
+void QS::swap(node *a, node *b){
   //Se rotan las pocisiones para actualizar los valores de prioridad
     node tmp = *a;
     *a = *b;
     *b = tmp;
 }
 
-int QuickSort::separate(node* bucket, int low, int high) {
+int QS::separate(node* bucket, int low, int high) {
     int pivot = bucket[high].Prio;
     int i = low - 1;
 
@@ -24,7 +24,7 @@ int QuickSort::separate(node* bucket, int low, int high) {
     return i + 1;
 }
 
-void QuickSort::sort(node* bucket, int low, int high){
+void QS::sort(node* bucket, int low, int high){
     
     if (low < high) {
         int part = separate(bucket, low, high);
@@ -35,13 +35,13 @@ void QuickSort::sort(node* bucket, int low, int high){
 
 }
 
-void QuickSort::show(node* bucket, int size){
+void QS::show(node* bucket, int size){
     for(int i = 0; i < size; i++){
       //imprime el array actualizado
         cout << "[" << i << "] Prioridad : " <<bucket[i].Prio<< endl;
     }
 }
 
-int QuickSort::size(int* bucket) {
+int QS::size(int* bucket) {
     return sizeof(bucket);
 }
